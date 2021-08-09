@@ -1,7 +1,6 @@
 //
 //  ContentView.swift
 //  Gallo-SwiftUI
-//
 //  Created by Danny on 09/08/2021.
 //
 
