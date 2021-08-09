@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B224638826C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224638726C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift */; };
+		B224638A26C1A7F10089E1E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224638926C1A7F10089E1E6 /* ContentView.swift */; };
+		B224638C26C1A7F10089E1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224638B26C1A7F10089E1E6 /* Assets.xcassets */; };
+		B224638F26C1A7F10089E1E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224638E26C1A7F10089E1E6 /* Preview Assets.xcassets */; };
+		B224639A26C1A7F10089E1E6 /* Gallo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224639926C1A7F10089E1E6 /* Gallo_SwiftUITests.swift */; };
+		B22463A526C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B224639626C1A7F10089E1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B224637C26C1A7F10089E1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B224638326C1A7F10089E1E6;
+			remoteInfo = "Gallo-SwiftUI";
+		};
+		B22463A126C1A7F10089E1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B224637C26C1A7F10089E1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B224638326C1A7F10089E1E6;
+			remoteInfo = "Gallo-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B224638426C1A7F10089E1E6 /* Gallo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gallo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B224638726C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallo_SwiftUIApp.swift; sourceTree = "<group>"; };
+		B224638926C1A7F10089E1E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B224638B26C1A7F10089E1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B224638E26C1A7F10089E1E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B224639026C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B224639526C1A7F10089E1E6 /* Gallo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gallo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B224639926C1A7F10089E1E6 /* Gallo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallo_SwiftUITests.swift; sourceTree = "<group>"; };
+		B224639B26C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22463A026C1A7F10089E1E6 /* Gallo-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gallo-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallo_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		B22463A626C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B224638126C1A7F10089E1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224639226C1A7F10089E1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224639D26C1A7F10089E1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B224637B26C1A7F10089E1E6 = {
+			isa = PBXGroup;
+			children = (
+				B224638626C1A7F10089E1E6 /* Gallo-SwiftUI */,
+				B224639826C1A7F10089E1E6 /* Gallo-SwiftUITests */,
+				B22463A326C1A7F10089E1E6 /* Gallo-SwiftUIUITests */,
+				B224638526C1A7F10089E1E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B224638526C1A7F10089E1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B224638426C1A7F10089E1E6 /* Gallo-SwiftUI.app */,
+				B224639526C1A7F10089E1E6 /* Gallo-SwiftUITests.xctest */,
+				B22463A026C1A7F10089E1E6 /* Gallo-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B224638626C1A7F10089E1E6 /* Gallo-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B224638726C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift */,
+				B224638926C1A7F10089E1E6 /* ContentView.swift */,
+				B224638B26C1A7F10089E1E6 /* Assets.xcassets */,
+				B224639026C1A7F10089E1E6 /* Info.plist */,
+				B224638D26C1A7F10089E1E6 /* Preview Content */,
+			);
+			path = "Gallo-SwiftUI";
+			sourceTree = "<group>";
+		};
+		B224638D26C1A7F10089E1E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B224638E26C1A7F10089E1E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B224639826C1A7F10089E1E6 /* Gallo-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B224639926C1A7F10089E1E6 /* Gallo_SwiftUITests.swift */,
+				B224639B26C1A7F10089E1E6 /* Info.plist */,
+			);
+			path = "Gallo-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		B22463A326C1A7F10089E1E6 /* Gallo-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */,
+				B22463A626C1A7F10089E1E6 /* Info.plist */,
+			);
+			path = "Gallo-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B224638326C1A7F10089E1E6 /* Gallo-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22463A926C1A7F10089E1E6 /* Build configuration list for PBXNativeTarget "Gallo-SwiftUI" */;
+			buildPhases = (
+				B224638026C1A7F10089E1E6 /* Sources */,
+				B224638126C1A7F10089E1E6 /* Frameworks */,
+				B224638226C1A7F10089E1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gallo-SwiftUI";
+			productName = "Gallo-SwiftUI";
+			productReference = B224638426C1A7F10089E1E6 /* Gallo-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B224639426C1A7F10089E1E6 /* Gallo-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22463AC26C1A7F10089E1E6 /* Build configuration list for PBXNativeTarget "Gallo-SwiftUITests" */;
+			buildPhases = (
+				B224639126C1A7F10089E1E6 /* Sources */,
+				B224639226C1A7F10089E1E6 /* Frameworks */,
+				B224639326C1A7F10089E1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B224639726C1A7F10089E1E6 /* PBXTargetDependency */,
+			);
+			name = "Gallo-SwiftUITests";
+			productName = "Gallo-SwiftUITests";
+			productReference = B224639526C1A7F10089E1E6 /* Gallo-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B224639F26C1A7F10089E1E6 /* Gallo-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22463AF26C1A7F10089E1E6 /* Build configuration list for PBXNativeTarget "Gallo-SwiftUIUITests" */;
+			buildPhases = (
+				B224639C26C1A7F10089E1E6 /* Sources */,
+				B224639D26C1A7F10089E1E6 /* Frameworks */,
+				B224639E26C1A7F10089E1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22463A226C1A7F10089E1E6 /* PBXTargetDependency */,
+			);
+			name = "Gallo-SwiftUIUITests";
+			productName = "Gallo-SwiftUIUITests";
+			productReference = B22463A026C1A7F10089E1E6 /* Gallo-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B224637C26C1A7F10089E1E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B224638326C1A7F10089E1E6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B224639426C1A7F10089E1E6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B224638326C1A7F10089E1E6;
+					};
+					B224639F26C1A7F10089E1E6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B224638326C1A7F10089E1E6;
+					};
+				};
+			};
+			buildConfigurationList = B224637F26C1A7F10089E1E6 /* Build configuration list for PBXProject "Gallo-SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B224637B26C1A7F10089E1E6;
+			productRefGroup = B224638526C1A7F10089E1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B224638326C1A7F10089E1E6 /* Gallo-SwiftUI */,
+				B224639426C1A7F10089E1E6 /* Gallo-SwiftUITests */,
+				B224639F26C1A7F10089E1E6 /* Gallo-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B224638226C1A7F10089E1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224638F26C1A7F10089E1E6 /* Preview Assets.xcassets in Resources */,
+				B224638C26C1A7F10089E1E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224639326C1A7F10089E1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224639E26C1A7F10089E1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B224638026C1A7F10089E1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224638A26C1A7F10089E1E6 /* ContentView.swift in Sources */,
+				B224638826C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224639126C1A7F10089E1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224639A26C1A7F10089E1E6 /* Gallo_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224639C26C1A7F10089E1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22463A526C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B224639726C1A7F10089E1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B224638326C1A7F10089E1E6 /* Gallo-SwiftUI */;
+			targetProxy = B224639626C1A7F10089E1E6 /* PBXContainerItemProxy */;
+		};
+		B22463A226C1A7F10089E1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B224638326C1A7F10089E1E6 /* Gallo-SwiftUI */;
+			targetProxy = B22463A126C1A7F10089E1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B22463A726C1A7F10089E1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B22463A826C1A7F10089E1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22463AA26C1A7F10089E1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gallo-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gallo-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcompany.Gallo-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B22463AB26C1A7F10089E1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gallo-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gallo-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcompany.Gallo-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B22463AD26C1A7F10089E1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gallo-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcompany.Gallo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gallo-SwiftUI.app/Gallo-SwiftUI";
+			};
+			name = Debug;
+		};
+		B22463AE26C1A7F10089E1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gallo-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcompany.Gallo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gallo-SwiftUI.app/Gallo-SwiftUI";
+			};
+			name = Release;
+		};
+		B22463B026C1A7F10089E1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gallo-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcompany.Gallo-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gallo-SwiftUI";
+			};
+			name = Debug;
+		};
+		B22463B126C1A7F10089E1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gallo-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcompany.Gallo-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gallo-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B224637F26C1A7F10089E1E6 /* Build configuration list for PBXProject "Gallo-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22463A726C1A7F10089E1E6 /* Debug */,
+				B22463A826C1A7F10089E1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22463A926C1A7F10089E1E6 /* Build configuration list for PBXNativeTarget "Gallo-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22463AA26C1A7F10089E1E6 /* Debug */,
+				B22463AB26C1A7F10089E1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22463AC26C1A7F10089E1E6 /* Build configuration list for PBXNativeTarget "Gallo-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22463AD26C1A7F10089E1E6 /* Debug */,
+				B22463AE26C1A7F10089E1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22463AF26C1A7F10089E1E6 /* Build configuration list for PBXNativeTarget "Gallo-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22463B026C1A7F10089E1E6 /* Debug */,
+				B22463B126C1A7F10089E1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B224637C26C1A7F10089E1E6 /* Project object */;
+}
