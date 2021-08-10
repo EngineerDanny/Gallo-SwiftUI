@@ -7,29 +7,56 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+//      let appearance =  UITabBar.appearance()
+//        appearance.unselectedItemTintColor = UIColor(named: "Primary");
+//        appearance.barTintColor  = UIColor.white;
+//        appearance.isTranslucent = false;
+    }
+    
+    @State private var index = 1;
+    
+    
     var body: some View {
   
-           TabView {
+        TabView(selection: $index){
+              
             HomeView().tag(1)
                  .tabItem {
-                         Image(systemName: "house")
-                         Text("Home")
+                  
+                    Image(systemName: "house")
+                    if index == 1 {
+                        Text("o")
+                    }
+                  
+    
+                  
                      }
             Text("Another Tab").tag(2)
                      .tabItem {
                          Image(systemName: "heart")
-                         Text("Second")
+                        if index == 2 {
+                            Text("o")
+                        }
+                        
                      }
                  Text("The Third Tab").tag(3)
                      .tabItem {
                          Image(systemName: "cube")
-                         Text("Third")
+                        if index == 3 {
+                            Text("o")
+                        }
+                 
                      }
             
             Text("The Last Tab").tag(4)
                 .tabItem {
                     Image(systemName: "person")
-                    Text("Fourth")
+                    if index == 4 {
+                        Text("o")
+                    }
+              
                 }
              }
              .font(.headline)
