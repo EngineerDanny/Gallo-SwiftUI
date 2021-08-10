@@ -15,51 +15,52 @@ struct ContentView: View {
 //        appearance.isTranslucent = false;
     }
     
-    @State private var index = 1;
+    @State private var index = 0;
     
     
     var body: some View {
   
         TabView(selection: $index){
               
-            HomeView().tag(1)
+            HomeView().tag(0)
                  .tabItem {
                   
                     Image(systemName: "house")
-                    if index == 1 {
+                    if index == 0 {
                         Text("o")
                     }
-                  
-    
-                  
-                     }
-            Text("Another Tab").tag(2)
-                     .tabItem {
+                }
+            Text("Another Tab")
+                .tag(1)
+                    .tabItem {
                          Image(systemName: "heart")
-                        if index == 2 {
+                        if index == 1 {
                             Text("o")
                         }
                         
                      }
-                 Text("The Third Tab").tag(3)
+                 Text("The Third Tab")
+                     .tag(2)
                      .tabItem {
                          Image(systemName: "cube")
-                        if index == 3 {
+                        if index == 2 {
                             Text("o")
                         }
                  
                      }
             
-            Text("The Last Tab").tag(4)
+            Text("The Last Tab").tag(3)
                 .tabItem {
                     Image(systemName: "person")
-                    if index == 4 {
+                    if index == 3 {
                         Text("o")
                     }
-              
                 }
-             }
-             .font(.headline)
+        }
+        .background(Color("Primary"))
+        .font(.headline)
+       
+        
     }
 }
 

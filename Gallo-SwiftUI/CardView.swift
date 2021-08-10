@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct CardView: View {
+    let product: Product
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            Text(product.title)
+            Text(product.content)
+            Image(product.image)
+            
+        }
+       
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardView(product:Product.getProduct())
     }
 }
+
+

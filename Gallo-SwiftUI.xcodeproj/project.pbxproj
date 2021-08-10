@@ -15,6 +15,7 @@
 		B22463A526C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */; };
 		B298107026C2A0D700C9F3C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298106F26C2A0D700C9F3C2 /* HomeView.swift */; };
 		B298107226C2A0F400C9F3C2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298107126C2A0F400C9F3C2 /* CardView.swift */; };
+		B298107426C2D00D00C9F3C2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298107326C2D00D00C9F3C2 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B22463A626C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B298106F26C2A0D700C9F3C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B298107126C2A0F400C9F3C2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B298107326C2D00D00C9F3C2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B224638D26C1A7F10089E1E6 /* Preview Content */,
 				B298106F26C2A0D700C9F3C2 /* HomeView.swift */,
 				B298107126C2A0F400C9F3C2 /* CardView.swift */,
+				B298107326C2D00D00C9F3C2 /* Product.swift */,
 			);
 			path = "Gallo-SwiftUI";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				B298107026C2A0D700C9F3C2 /* HomeView.swift in Sources */,
 				B224638A26C1A7F10089E1E6 /* ContentView.swift in Sources */,
+				B298107426C2D00D00C9F3C2 /* Product.swift in Sources */,
 				B298107226C2A0F400C9F3C2 /* CardView.swift in Sources */,
 				B224638826C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift in Sources */,
 			);
