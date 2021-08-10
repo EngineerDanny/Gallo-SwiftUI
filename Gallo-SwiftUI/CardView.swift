@@ -19,16 +19,15 @@ struct CardView: View {
                 .frame(maxHeight: 300 )
             
             Text(product.title)
-                
                 .bold()
-                .font(.title)
                 .foregroundColor(  Color("AccentColor"))
+                .padding(.horizontal)
              
             
             Text(product.content)
                 .font(.caption)
-                .foregroundColor(  Color("AccentColor"))
-        }.frame(maxWidth: 200)
+                .foregroundColor(  Color("AccentColor"))        .padding(.horizontal)
+        }.frame(maxWidth: 300)
         .cornerRadius(50)
      
 
