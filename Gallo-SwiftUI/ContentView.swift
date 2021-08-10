@@ -8,18 +8,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(content: {
-            /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/;
-            Text("Hello, world!")
-                .padding();
-            Button(action: {
-                print("clicked me")
-            }, label: {
-                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
-            });
+  
+           TabView {
+            HomeView().tag(1)
+                 .tabItem {
+                         Image(systemName: "house")
+                         Text("Home")
+                     }
+            Text("Another Tab").tag(2)
+                     .tabItem {
+                         Image(systemName: "heart")
+                         Text("Second")
+                     }
+                 Text("The Third Tab").tag(3)
+                     .tabItem {
+                         Image(systemName: "cube")
+                         Text("Third")
+                     }
             
-        })
-       
+            Text("The Last Tab").tag(4)
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Fourth")
+                }
+             }
+             .font(.headline)
     }
 }
 
