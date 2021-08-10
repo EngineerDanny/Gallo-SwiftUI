@@ -20,9 +20,13 @@ struct ContentView: View {
     
     var body: some View {
   
-        TabView(selection: $index){
+        TabView(selection: $index)
+        {
               
-            HomeView().tag(0)
+            HomeView()
+                .background(Color("BgColor"))
+                
+                .tag(0)
                  .tabItem {
                   
                     Image(systemName: "house")
@@ -57,11 +61,9 @@ struct ContentView: View {
                     }
                 }
         }
-        .background(Color("Primary"))
         .font(.headline)
-       
-        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -33,7 +33,7 @@ struct CardView: View {
               
             
         }.frame(width: 270)
-        .background(Color("CardColor"),alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .background(Color.white,alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .cornerRadius(20)
    
 

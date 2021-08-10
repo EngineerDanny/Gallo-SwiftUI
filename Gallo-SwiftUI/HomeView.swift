@@ -9,10 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack(
-            alignment: .leading,
-            spacing: 10
-        ){
+        ScrollView{
             HStack{
                 VStack(alignment: .leading,      spacing: 5 ){
                     Text("Good morning,")  .font(.headline)
@@ -28,6 +25,10 @@ struct HomeView: View {
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                
             }.padding(.horizontal)
+            
+            SearchView().padding()
+            
+            CardPicker().padding()
             
             Text("Recommended Products")  .font(.subheadline)
                 .bold()
