@@ -11,8 +11,6 @@
 		B224638A26C1A7F10089E1E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224638926C1A7F10089E1E6 /* ContentView.swift */; };
 		B224638C26C1A7F10089E1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224638B26C1A7F10089E1E6 /* Assets.xcassets */; };
 		B224638F26C1A7F10089E1E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224638E26C1A7F10089E1E6 /* Preview Assets.xcassets */; };
-		B224639A26C1A7F10089E1E6 /* Gallo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224639926C1A7F10089E1E6 /* Gallo_SwiftUITests.swift */; };
-		B22463A526C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */; };
 		B298107026C2A0D700C9F3C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298106F26C2A0D700C9F3C2 /* HomeView.swift */; };
 		B298107226C2A0F400C9F3C2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298107126C2A0F400C9F3C2 /* CardView.swift */; };
 		B298107426C2D00D00C9F3C2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298107326C2D00D00C9F3C2 /* Product.swift */; };
@@ -36,18 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B224638426C1A7F10089E1E6 /* Gallo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gallo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B224638426C1A7F10089E1E6 /* Gallo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Gallo-SwiftUI.app"; path = "/Users/newuser/Projects/Personal/Gallo-SwiftUI/build/Debug-iphoneos/Gallo-SwiftUI.app"; sourceTree = "<absolute>"; };
 		B224638726C1A7F10089E1E6 /* Gallo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallo_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B224638926C1A7F10089E1E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B224638B26C1A7F10089E1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B224638E26C1A7F10089E1E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B224639026C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B224639526C1A7F10089E1E6 /* Gallo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gallo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B224639926C1A7F10089E1E6 /* Gallo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallo_SwiftUITests.swift; sourceTree = "<group>"; };
-		B224639B26C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B22463A026C1A7F10089E1E6 /* Gallo-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gallo-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallo_SwiftUIUITests.swift; sourceTree = "<group>"; };
-		B22463A626C1A7F10089E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B224639526C1A7F10089E1E6 /* Gallo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Gallo-SwiftUITests.xctest"; path = "/Users/newuser/Projects/Personal/Gallo-SwiftUI/build/Debug-iphoneos/Gallo-SwiftUITests.xctest"; sourceTree = "<absolute>"; };
+		B22463A026C1A7F10089E1E6 /* Gallo-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Gallo-SwiftUIUITests.xctest"; path = "/Users/newuser/Projects/Personal/Gallo-SwiftUI/build/Debug-iphoneos/Gallo-SwiftUIUITests.xctest"; sourceTree = "<absolute>"; };
 		B298106F26C2A0D700C9F3C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B298107126C2A0F400C9F3C2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B298107326C2D00D00C9F3C2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -82,20 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B224638626C1A7F10089E1E6 /* Gallo-SwiftUI */,
-				B224639826C1A7F10089E1E6 /* Gallo-SwiftUITests */,
-				B22463A326C1A7F10089E1E6 /* Gallo-SwiftUIUITests */,
-				B224638526C1A7F10089E1E6 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B224638526C1A7F10089E1E6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B224638426C1A7F10089E1E6 /* Gallo-SwiftUI.app */,
-				B224639526C1A7F10089E1E6 /* Gallo-SwiftUITests.xctest */,
-				B22463A026C1A7F10089E1E6 /* Gallo-SwiftUIUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B224638626C1A7F10089E1E6 /* Gallo-SwiftUI */ = {
@@ -119,24 +100,6 @@
 				B224638E26C1A7F10089E1E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B224639826C1A7F10089E1E6 /* Gallo-SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B224639926C1A7F10089E1E6 /* Gallo_SwiftUITests.swift */,
-				B224639B26C1A7F10089E1E6 /* Info.plist */,
-			);
-			path = "Gallo-SwiftUITests";
-			sourceTree = "<group>";
-		};
-		B22463A326C1A7F10089E1E6 /* Gallo-SwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B22463A426C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift */,
-				B22463A626C1A7F10089E1E6 /* Info.plist */,
-			);
-			path = "Gallo-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +189,7 @@
 				Base,
 			);
 			mainGroup = B224637B26C1A7F10089E1E6;
-			productRefGroup = B224638526C1A7F10089E1E6 /* Products */;
+			productRefGroup = B224637B26C1A7F10089E1E6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -280,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B224639A26C1A7F10089E1E6 /* Gallo_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22463A526C1A7F10089E1E6 /* Gallo_SwiftUIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

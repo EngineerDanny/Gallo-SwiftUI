@@ -11,14 +11,27 @@ struct CardView: View {
     let product: Product
     
     var body: some View {
+        
         VStack{
+            Image(product.image)
+                .resizable()
+                .scaledToFill()
+                .frame(maxHeight: 300 )
             
             Text(product.title)
-            Text(product.content)
-            Image(product.image)
+                
+                .bold()
+                .font(.title)
+                .foregroundColor(  Color("AccentColor"))
+             
             
-        }
-       
+            Text(product.content)
+                .font(.caption)
+                .foregroundColor(  Color("AccentColor"))
+        }.frame(maxWidth: 200)
+        .cornerRadius(50)
+     
+
     }
 }
 
