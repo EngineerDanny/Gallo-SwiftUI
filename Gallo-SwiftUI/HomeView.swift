@@ -14,37 +14,37 @@ struct HomeView: View {
             spacing: 10
         ){
             HStack{
-                VStack{
+                VStack(alignment: .leading,      spacing: 5 ){
                     Text("Good morning,")  .font(.headline)
-                        .foregroundColor(  Color("AccentColor"))        .padding(.horizontal)
-                    
+                        .foregroundColor(  Color("AccentColor"))
                     Text("Shaileen")  .font(.title)
                         .bold()
-                        .foregroundColor(  Color("AccentColor"))        .padding(.horizontal)
+                        .foregroundColor(  Color("AccentColor"))
                 }
                 Spacer()
                 Image("User")
                     .resizable()
-                    .frame( maxWidth: 100, maxHeight: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .cornerRadius(200)
+                    .frame( maxWidth: 50, maxHeight: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                
-            }
+            }.padding(.horizontal)
             
             Text("Recommended Products")  .font(.subheadline)
                 .bold()
-                .foregroundColor(  Color("AccentColor"))        .padding(.horizontal)
+                .foregroundColor(Color("AccentColor"))        .padding(.horizontal)
             
-            ScrollView(.horizontal,showsIndicators : true ) {
+            ScrollView(.horizontal,showsIndicators : false ) {
                 LazyHStack{
                     CardView(product:Product.getProduct())
-        
-        CardView(product:Product.getProduct())
-        
-        CardView(product:Product.getProduct())
+                      
+                    CardView(product:Product.getProduct())
+                        
+                    CardView(product:Product.getProduct())
                 }
                             
-            }
-        }.padding()
+            }.frame( maxHeight: 370, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .padding(.leading)
+        }
         
     }
 }
